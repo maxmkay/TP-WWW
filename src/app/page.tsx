@@ -56,27 +56,20 @@ export default function Home() {
                 <div className='text-center text-xxl-start'>
                   <div className='badge bg-gradient-primary-to-secondary text-white mb-4'>
                     <div className='text-uppercase'>
-                      Design &middot; Development &middot; Marketing
+                      Speed &middot; Quality &middot; Success
                     </div>
                   </div>
                   <div className='fs-3 text-[#02A4ff]'>
-                    I can help your business to
+                    Analyze propeties fast
                   </div>
                   <h1 className='display-3 fw-bolder mb-5'>
                     <span className='text-black d-inline'>
-                      Get online and grow fast
+                      reaching freedom quicker
                     </span>
                   </h1>
                   <div className='d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3'>
-                    <span
-                      className='bg-[#02A4ff] rounded-lg text-white px-5 py-3 me-sm-3 fs-6 fw-bolder cursor-pointer'
-                    >
-                      Resume
-                    </span>
-                    <span
-                      className='border-2 border-[#02A4ff] rounded-lg text-[#02A4ff] cursor-pointer btn-lg px-5 py-3 fs-6 fw-bolder'
-                    >
-                      Projects
+                    <span className='bg-[#02A4ff] rounded-lg text-white px-5 py-3 me-sm-3 fs-6 fw-bolder cursor-pointer'>
+                      Download
                     </span>
                   </div>
                 </div>
@@ -103,16 +96,17 @@ export default function Home() {
               <div className='col-xxl-8'>
                 <div className='text-center my-5'>
                   <h2 className='display-5 fw-bolder'>
-                    <span className='text-[#02A4ff] d-inline'>About Me</span>
+                    <span className='text-[#02A4ff] d-inline'>
+                      Real Estate Analysis
+                    </span>
                   </h2>
                   <p className='lead fw-light mb-4'>
-                    My name is Start Bootstrap and I help brands grow.
+                    TopProp will help you analyze properties with speed and
+                    clarity.{' '}
                   </p>
                   <p className='text-muted'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Fugit dolorum itaque qui unde quisquam consequatur autem.
-                    Eveniet quasi nobis aliquid cumque officiis sed rem iure
-                    ipsa! Praesentium ratione atque dolorem?
+                    In real estate speed is key. TopProp is the quickest tool on
+                    the market to analyze deal with accuracy and quality.
                   </p>
                   <div className='d-flex justify-content-center fs-2 gap-4'>
                     <a className='text-gradient' href='#'>
@@ -135,7 +129,7 @@ export default function Home() {
         <div className='container px-5'>
           <div className='row align-items-center justify-content-between flex-col flex-sm-row'>
             <div className='col-auto'>
-              <p className='small m-0'>Copyright &copy; Your Website 2023</p>
+              <p className='small m-0'>Copyright &copy; TopProp 2023</p>
             </div>
             <div className='col-auto'>
               <Link href='/privacy' className='small'>
