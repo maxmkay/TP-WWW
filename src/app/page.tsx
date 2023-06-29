@@ -59,40 +59,38 @@ export default function Home() {
                       Design &middot; Development &middot; Marketing
                     </div>
                   </div>
-                  <div className='fs-3 fw-light text-muted'>
+                  <div className='fs-3 text-[#02A4ff]'>
                     I can help your business to
                   </div>
                   <h1 className='display-3 fw-bolder mb-5'>
-                    <span className='text-gradient d-inline'>
+                    <span className='text-black d-inline'>
                       Get online and grow fast
                     </span>
                   </h1>
                   <div className='d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3'>
-                    <Link
-                      href='/resume'
-                      className='btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder'
+                    <span
+                      className='bg-[#02A4ff] rounded-lg text-white px-5 py-3 me-sm-3 fs-6 fw-bolder cursor-pointer'
                     >
                       Resume
-                    </Link>
-                    <Link
-                      href='/projects'
-                      className='btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder'
+                    </span>
+                    <span
+                      className='border-2 border-[#02A4ff] rounded-lg text-[#02A4ff] cursor-pointer btn-lg px-5 py-3 fs-6 fw-bolder'
                     >
                       Projects
-                    </Link>
+                    </span>
                   </div>
                 </div>
               </div>
               <div className='col-xxl-7'>
                 <div className='d-flex justify-content-center mt-5 mt-xxl-0'>
-                  <div className='profile bg-gradient-primary-to-secondary'>
-                    <Image
+                  <div className='profile bg-gradient-to-br from-[#F7C844] via-[#EB3527] to-[#2C7AF6]'>
+                    {/* <Image
                       src='/profile.png'
                       alt='Profile'
                       width={500}
                       height={300}
                     />
-                    {/* SVG dots were here but they were not given so I removed them */}
+                    SVG dots were here but they were not given so I removed them */}
                   </div>
                 </div>
               </div>
@@ -105,7 +103,7 @@ export default function Home() {
               <div className='col-xxl-8'>
                 <div className='text-center my-5'>
                   <h2 className='display-5 fw-bolder'>
-                    <span className='text-gradient d-inline'>About Me</span>
+                    <span className='text-[#02A4ff] d-inline'>About Me</span>
                   </h2>
                   <p className='lead fw-light mb-4'>
                     My name is Start Bootstrap and I help brands grow.
