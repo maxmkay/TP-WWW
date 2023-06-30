@@ -7,8 +7,8 @@ export default function Home() {
           <ol className="flex flex-col gap-8 pl-4">
             <li className="flex flex-col gap-4">
               <b className="text-lg">1. Acceptance of Terms</b><span className="pl-8">By using the TopProp Real Estate Calculator
-              Chrome Extension (the "Extension"), you are agreeing to be bound
-              by the following terms and conditions ("Terms of Use"). Please
+              Chrome Extension (the &quot;Extension&quot;), you are agreeing to be bound
+              by the following terms and conditions (&quot;Terms of Use&quot;). Please
               read these terms and conditions carefully. If you do not agree to
               these terms, please do not use or access the Extension.</span>
             </li>
@@ -16,12 +16,12 @@ export default function Home() {
               <b className="text-lg">2. Description of Service</b><span className="pl-8">The Extension, provided by TopProp, offers
               users a tool to calculate real estate metrics, including but not
               limited to, loan amount, mortgage payments, interest rates, and
-              property value appreciation (the "Service"). The Service is
-              provided "as is" and "as available."</span> 
+              property value appreciation (the &quot;Service&quot;). The Service is
+              provided &quot;as is&quot; and &quot;as available.&quot;</span> 
             </li>
             <li className="flex flex-col gap-4">
               <b className="text-lg">3. Privacy Policy</b><span className="pl-8">Any personal information you provide us while using
-              the Extension is governed by TopProp's Privacy Policy. By using
+              the Extension is governed by TopProp&apos;s Privacy Policy. By using
               the Extension, you agree to the collection and use of your
               information in accordance with this policy.</span>
             </li>
@@ -56,7 +56,7 @@ export default function Home() {
             </li>
             <li className="flex flex-col gap-4">
               <b className="text-lg">7. Disclaimer</b><span className="pl-8">Your use of the Extension is at your sole risk. The
-              Extension is provided on an "AS IS" and "AS AVAILABLE" basis. The
+              Extension is provided on an &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; basis. The
               Extension, and services provided by TopProp, are without
               warranties of any kind, whether express or implied, including, but
               not limited to, implied warranties of merchantability, fitness for

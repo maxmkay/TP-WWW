@@ -52,14 +52,14 @@ export default function Home() {
         <header className='py-5'>
           <div className='container px-5 pb-5'>
             <div className='row align-items-center'>
-              <div className='col-xxl-5'>
+              <div className='col-xxl-5 p-0'>
                 <div className='text-center text-xxl-start'>
                   <div className='badge bg-gradient-primary-to-secondary text-white mb-4'>
                     <div className='text-uppercase'>
                       Speed &middot; Quality &middot; Success
                     </div>
                   </div>
-                  <div className='fs-3 text-[#02A4ff]'>
+                  <div className='fs-2 text-[#02A4ff]'>
                     Analyze propeties fast
                   </div>
                   <h1 className='display-3 fw-bolder mb-5'>

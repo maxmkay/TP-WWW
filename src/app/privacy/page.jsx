@@ -9,7 +9,7 @@ export default function Home() {
               <b className="text-lg">1. Introduction</b>
               <span className="pl-8">
                 Welcome to the TopProp Real Estate Calculator Chrome Extension
-                ("Extension"). This Privacy Policy is meant to help you
+                (&quot;Extension&quot;). This Privacy Policy is meant to help you
                 understand what information we collect, why we collect it, and
                 how you can manage it.
               </span>
@@ -44,7 +44,7 @@ export default function Home() {
             <li className="flex flex-col gap-4">
               <b className="text-lg">5. Cookies</b>
               <span className="pl-8">
-                We use "cookies" to collect information in order to improve our
+                We use &quot;cookies&quot; to collect information in order to improve our
                 Extension for you. You can instruct your browser to refuse all
                 cookies or to indicate when a cookie is being sent. However, if
                 you do not accept cookies, you may not be able to use some
@@ -64,7 +64,7 @@ export default function Home() {
             <li className="flex flex-col gap-4">
               <b className="text-lg">7. Changes To This Privacy Policy</b>
               <span className="pl-8">
-                This Privacy Policy is effective as of (today's date) and will
+                This Privacy Policy is effective as of (today&apos;s date) and will
                 remain in effect except with respect to any changes in its
                 provisions in the future, which will be in effect immediately
                 after being posted on this page. We reserve the right to update
