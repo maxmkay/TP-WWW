@@ -1,54 +1,10 @@
-import Image from 'next/image';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <div className='d-flex flex-col h-screen'>
       <main className='flex-shrink-0'>
-        <nav className='navbar navbar-light bg-white py-3'>
-          <div className='container px-5'>
-            <div className='flex items-center'>
-              <Image
-                src={'/logo.png'}
-                alt='logo'
-                className='w-16 h-16 rounded'
-                width='64'
-                height={64}
-              />
-              <Link href='/' className='navbar-brand text-primary'>
-                TopProp
-              </Link>
-            </div>
-
-            <button className='navbar-toggler' type='button'>
-              <span className='navbar-toggler-icon'></span>
-            </button>
-            <div className='collapse navbar-collapse'>
-              <ul className='navbar-nav ms-auto mb-2 mb-lg-0 small'>
-                <li className='nav-item'>
-                  <Link href='/' className='nav-link'>
-                    Home
-                  </Link>
-                </li>
-                <li className='nav-item'>
-                  <Link href='/resume' className='nav-link'>
-                    Resume
-                  </Link>
-                </li>
-                <li className='nav-item'>
-                  <Link href='/projects' className='nav-link'>
-                    Projects
-                  </Link>
-                </li>
-                <li className='nav-item'>
-                  <Link href='/contact' className='nav-link'>
-                    Contact
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
         <header className='py-5'>
           <div className='container px-5 pb-5'>
             <div className='row align-items-center'>
@@ -56,34 +12,38 @@ export default function Home() {
                 <div className='text-center text-xxl-start'>
                   <div className='badge bg-gradient-primary-to-secondary text-white mb-4'>
                     <div className='text-uppercase'>
-                      Speed &middot; Quality &middot; Success
+                      Invest &middot; Smarter &middot; Faster
                     </div>
                   </div>
-                  <div className='fs-3 text-[#02A4ff]'>
-                    Analyze propeties fast
-                  </div>
+                  <Image
+                    src={'/company/fullLogo.png'}
+                    alt='logo'
+                    className='rounded fs-3'
+                    width={170}
+                    height={64}
+                  />
                   <h1 className='display-3 fw-bolder mb-5'>
                     <span className='text-black d-inline'>
-                      reaching freedom quicker
+                      Analyze a deal with just a single click
                     </span>
                   </h1>
                   <div className='d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3'>
                     <span className='bg-[#02A4ff] rounded-lg text-white px-5 py-3 me-sm-3 fs-6 fw-bolder cursor-pointer'>
-                      Download
+                      Download Now
                     </span>
                   </div>
                 </div>
               </div>
               <div className='col-xxl-7'>
                 <div className='d-flex justify-content-center mt-5 mt-xxl-0'>
-                  <div className='profile bg-gradient-to-br from-[#F7C844] via-[#EB3527] to-[#2C7AF6]'>
-                    {/* <Image
-                      src='/profile.png'
+                  <div className='profile bg-gradient-to-br from-[#F7C844] via-[#EB3527] to-[#2C7AF6] flex items-center justify-center '>
+                    <Image
+                      src='/real-estate/home-white-nbg.png'
                       alt='Profile'
-                      width={500}
-                      height={300}
+                      width={300}
+                      height={400}
+                      className='object-cover'
                     />
-                    SVG dots were here but they were not given so I removed them */}
                   </div>
                 </div>
               </div>
@@ -101,12 +61,18 @@ export default function Home() {
                     </span>
                   </h2>
                   <p className='lead fw-light mb-4'>
-                    TopProp will help you analyze properties with speed and
-                    clarity.{' '}
+                    One-Click Investment Insights
                   </p>
                   <p className='text-muted'>
-                    In real estate speed is key. TopProp is the quickest tool on
-                    the market to analyze deal with accuracy and quality.
+                    Transform the way you invest in real estate with our
+                    innovative Chrome extension. Seamlessly integrated with
+                    major real estate listing sites, it allows you to analyze
+                    potential investments with a single click. The extension
+                    provides comprehensive metrics and data, simplifying the
+                    often complex process of assessing real estate deals. It's
+                    tailored for investors who value speed without sacrificing
+                    accuracy, ensuring you have all the essential information at
+                    your fingertips in mere seconds
                   </p>
                   <div className='d-flex justify-content-center fs-2 gap-4'>
                     <a className='text-gradient' href='#'>
