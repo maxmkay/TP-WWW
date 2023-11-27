@@ -1,0 +1,51 @@
+.pricing_card_main_section {
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.pricing_card_free_title{
+    background-color: #0077FF;
+    overflow: hidden;
+    border-radius: 6px 6px 0px 0px; 
+}
+.pricing_card_premium_title{
+    background-color: #F8C617;
+    overflow: hidden;
+    border-radius: 6px 6px 0px 0px; 
+}
+.pricing_card_ultra_title{
+    background-color: #FF0202C4;
+    overflow: hidden;
+    border-radius: 6px 6px 0px 0px;
+}
+.common_title_border{
+    border-top: 2px solid white;
+    border-right:   2px solid white;
+    border-bottom:  0px  solid white;
+    border-left: 2px  solid white;
+}
+.pricing_Billed_Monthly{
+    font-size: 32px;
+}
+.pricing_plan_introduction{
+    font-size: 20px;
+}
+
+.pricing_Started_btn_blue{
+    border: 2px solid #02A4FF;
+    background-color: transparent;
+    color: #02A4FF;
+    border-radius: 5px ;
+}
+.pricing_Started_btn_yellow{
+    border: 2px solid #F8C617B0;
+    background-color: transparent;
+    color:#F8C617B0;
+    border-radius: 5px ;
+}
+.pricing_Started_btn_red{
+    border: 2px solid #FF0202A1;
+    background-color: transparent;
+    color: #FF0202A1;
+    border-radius: 5px ;
+}

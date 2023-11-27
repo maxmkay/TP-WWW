@@ -1,0 +1,56 @@
+.modal_header_title {
+    font-size: 48px;
+    color: #0077FF;
+}
+
+.modal_top_prop_para {
+    font-size: 35px;
+}
+
+.modal_but_would_second__para {
+    font-size: 25px;
+}
+
+.modal_input_email {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 35px;
+}
+
+.modal_input_email:focus {
+    border: 1px solid black;
+    box-shadow: none !important;
+}
+
+.modal_input_email:focus-visible {
+    border: 1px solid black;
+    box-shadow: none !important;
+}
+
+.modal_down_btn {
+    background-color: #F8C617;
+    color: white;
+    border-radius: 8px;
+}
+.modal_home_image_section{
+    background-color: #0077FF;
+    border-radius: 15px;
+}
+.modal_contact_para{
+    font-size: 14px;
+}
+
+@media(min-width:280px) and (max-width:767px) {
+    .modal_header_title {
+        font-size: 38px;
+    }
+
+    .modal_top_prop_para {
+        font-size: 25px;
+    }
+
+    .modal_but_would_second__para {
+        font-size: 15px;
+    }
+}
