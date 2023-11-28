@@ -19,7 +19,7 @@ export const Modal: React.FC<modalProps> = (props) => {
         {props.isModalOpen && (
           <div className="fixed inset-0 z-10 flex items-center justify-center overflow-x-hidden overflow-y-auto">
             <div className="absolute inset-0 bg-gray-500 opacity-75"></div>
-            <div className="relative bg-white p-3 rounded shadow-lg w-[90%] md:w-[60%] lg:w-[60%] xl:w-[40%] 2xl:w-[30%]">
+            <div className="relative bg-white p-3 rounded shadow-lg w-[90%] md:w-[60%] lg:w-[50%] xl:w-[30%] 2xl:w-[25%]">
               <div className="flex items-center">
                 <div className="w-[20%]">
                   <Image
@@ -43,12 +43,12 @@ export const Modal: React.FC<modalProps> = (props) => {
                 </div>
               </div>
               <div className="w-[95%] md:w-[85%] lg:w-[85%] mx-auto text-center mt-[5%]">
-                <h1 className="modal_top_prop_para">
+                <h1 className="modal_top_prop_para interBold">
                   Top prop is currently in Beta
                 </h1>
               </div>
               <div className="w-[75%] mx-auto text-center mt-[5%]">
-                <h5 className="modal_but_would_second__para">
+                <h5 className="modal_but_would_second__para interBold">
                   But we would love to give you updates.
                 </h5>
               </div>
@@ -61,7 +61,7 @@ export const Modal: React.FC<modalProps> = (props) => {
                   height={100}
                 />
               </div>
-              <div className="mt-[5%] w-[95%] md:w-[85%] lg:w-[85%] mx-auto">
+              <div className="mt-[5%] w-[95%] md:w-[85%] lg:w-[85%] mx-auto interBold">
                 <h4>Enter your email below!</h4>
                 <form>
                   <input type="email" className="modal_input_email" />
@@ -73,7 +73,7 @@ export const Modal: React.FC<modalProps> = (props) => {
                 </button>
               </div>
               <div className="w-[75%] mx-auto text-center mt-[3%]">
-                <p className="modal_contact_para">
+                <p className="modal_contact_para interBold">
                   If you would like to become a beta tester,{" "}
                   <span className="underline decoration-1">contact us.</span> We
                   would love the help.
