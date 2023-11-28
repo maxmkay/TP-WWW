@@ -5,7 +5,7 @@ import { useState } from "react";
 import logo from "../../Image/Logo.png";
 
 const Nav = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -31,7 +31,9 @@ const Nav = () => {
               height={70}
             />
           </Link>
-          <span className="interBold text-blue-600 text-2xl">TopProp</span>
+          <Link href={"/"} className="no-underline ">
+            <span className="interBold text-blue-600 text-2xl">TopProp</span>
+          </Link>
         </div>
         <div className={`lg:hidden`}>
           <button

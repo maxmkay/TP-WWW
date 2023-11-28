@@ -3,7 +3,7 @@ const MediaPlayer = () => {
     <section className="bg-yellow-500 py-5">
       <div className="container px-5">
         <div className="lg:flex lg:items-center lg:justify-center">
-          <div className="lg:w-3/4 xl:w-2/3 pt-3 pb-md-5 pb-5">
+          <div className="lg:w-3/4 xl:w-2/3  pb-md-5 pb-0 pt-md-3 pt-0">
             <div className="aspect-video">
               <iframe
                 className="w-full h-full"

@@ -3,6 +3,7 @@ import Image from "next/image";
 import MediaPlayer from "@/components/MediaPlayer";
 import Extension from "@/components/Extension";
 import Marketing from "@/components/Marketing";
+import SliderCard from "@/components/SliderCard";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
           removeBorder={false}
         />
         <MediaPlayer />
+        <SliderCard />
         <Marketing />
       </main>
     </div>

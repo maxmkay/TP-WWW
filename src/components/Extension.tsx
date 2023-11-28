@@ -45,7 +45,7 @@ const Extension: React.FC<Extension> = ({ title, removeBorder }) => {
     <>
       <div className="container-fluid ">
         <div className="row interBold py-5 align-center gy-5">
-          <div className="col-lg-7 col-12 flex  items-center  justify-center">
+          <div className="col-md-7 col-12 flex  items-center  justify-center">
             <div className="text-center">
               <h1 className="md:text-3xl lg:text-4xl xl:text-5xl fw-bolder mb-5">
                 <span
@@ -62,11 +62,11 @@ const Extension: React.FC<Extension> = ({ title, removeBorder }) => {
             </div>
           </div>
           <div
-            className={`col-lg-5 col-12 flex justify-center lg:!justify-start ${
+            className={`col-md-5 col-12 flex justify-center lg:!justify-start ${
               removeBorder ? "" : "border-2 rounded-l-lg shadow"
             }`}
           >
-            <div className="d-flex justify-content-start mt-xl-5 mt-0  mt-xxl-0 py-5">
+            <div className="d-flex justify-content-start mt-xl-0 mt-0  mt-xxl-0 py-lg-5 py-0">
               {/* <div className=""> */}
               <Image
                 src={"/company/right.png"}

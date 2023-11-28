@@ -58,10 +58,10 @@ function PriceCard(props: PriceCardProps) {
         <div className="text-center">
           <button
             className={`w-[70%] my-[5%] py-[5%] bg-transparent rounded border-2 ${
-              props.plan == "FREE" && `border-blue-600`
-            } ${props.plan == "PREMIUM" && `border-yellow-500`} ${
-              props.plan == "ULTRA" && `border-red-500`
-            } `}
+              props.plan == "FREE" && `border-blue-600 text-blue-600`
+            } ${
+              props.plan == "PREMIUM" && `border-yellow-500 text-yellow-500`
+            } ${props.plan == "ULTRA" && `border-red-500 text-red-500`} `}
           >
             Get Started
           </button>

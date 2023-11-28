@@ -41,6 +41,7 @@
     font-size: 14px;
 }
 
+
 @media(min-width:280px) and (max-width:767px) {
     .modal_header_title {
         font-size: 38px;
